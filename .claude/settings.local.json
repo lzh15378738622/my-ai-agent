@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST http://localhost:3000/api/sessions/7ff40b02-a7a2-4cfd-9fe1-aa7875b3409f/chat -H \"Content-Type: application/json\" -d '{\"\"message\"\":\"\"hello\"\"}')",
+      "Bash(kill %1)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}
